@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.articlesimanager.articlesmanager.model.Article;
 import com.articlesimanager.articlesmanager.service.ArticleService;
 
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://joyful-cucurucho-727ab9.netlify.app")
 @RestController
 @RequestMapping("/api/articles")
 public class ArticleController {
